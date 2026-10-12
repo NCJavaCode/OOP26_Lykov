@@ -5,7 +5,7 @@ public class Beginning {
 
         System.out.println("Кінотеатр: " + cinema.getName());
         System.out.println("Адреса: " + cinema.getAddress());
-        System.out.println("===================================");
+        System.out.println("===================================");// Перший Відступ, щоб не була каша
 
         Movie shrek = new Cartoon("Шрек", 90, 0, "Комедія / Фентезі", 100, "DreamWorks");
         Movie priceOfEscape = new Series("Ціна втечі", 45, 16, "Мелодрама", 159, 1);
@@ -13,10 +13,10 @@ public class Beginning {
 
         //Виводимо інормаццію
         shrek.movieDetails();
-        System.out.println("-----------------------------------"); // Перший Відступ, щоб не була каша
+        System.out.println("-----------------------------------"); // Другий Відступ
 
         priceOfEscape.movieDetails();
-        System.out.println("-----------------------------------");// Другий відступ, щоб не була каша
+        System.out.println("-----------------------------------");// Третій відступ
 
         twilight.movieDetails();
     }

@@ -16,7 +16,7 @@ public class Cartoon extends Movie {
 
     @Override
     public void movieDetails() {
-        System.out.println("Мультік: " + getTitle());
+        System.out.println("Мультик: " + getTitle());
         System.out.println("Жанр: " + getGenre());
         System.out.println("Тривалість: " + getDuration());
         System.out.println("Вік: " + getAgeRestriction());
