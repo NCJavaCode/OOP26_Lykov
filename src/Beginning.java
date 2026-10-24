@@ -11,6 +11,8 @@ public class Beginning {
         Movie priceOfEscape = new Series("Ціна втечі", 45, 16, "Мелодрама", 159, 1);
         Movie twilight = new Series("Сутінки", 122, 16, "Фентезі / Мелодрама", 250, 1);
 
+        Trailer avatarTrailer = new Trailer("Трейлер Аватар 3", 3, 12, "Фантастика", "Аватар 3");
+
         //Виводимо інормаццію
         shrek.movieDetails();
         System.out.println("-----------------------------------"); // Другий Відступ
@@ -19,5 +21,13 @@ public class Beginning {
         System.out.println("-----------------------------------");// Третій відступ
 
         twilight.movieDetails();
+        System.out.println("-----------------------------------");// Четвертий відступ
+
+        // Виводимо трейлер
+        avatarTrailer.movieDetails();
+        System.out.println("-----------------------------------");
+
+        System.out.println("Назва класу (інтерфейс Nameable): " + avatarTrailer.getClassName());
+        avatarTrailer.playInfo(); // Виклик методу з інтерфейсу Playable
     }
 }
