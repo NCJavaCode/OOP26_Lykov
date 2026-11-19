@@ -1,4 +1,5 @@
 public class MovieShop {
+    // Клієнт тримає фабрику, але не створює конкретні класи (Cartoon, Series тощо) напряму
     private final MovieFactory movieFactory;
 
     public MovieShop(MovieFactory movieFactory) {
